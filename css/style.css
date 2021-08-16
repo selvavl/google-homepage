@@ -1,11 +1,153 @@
+* {
+    border: 0px solid red;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    width: 100%;
+}
+
 header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header div a {
+    margin: 0.5em; 
+    font-size: 0.85em;
+    text-decoration: none;
+    color: unset;
+}
+
+header div a:hover {
+text-decoration: underline black;
+}
+
+.header-cont {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin: 0.1em;
+    padding: 0;
+}
+
+.header-img {
+    border-radius: 50%;
+    margin: auto;
+}
+
+.img-a {
+    display: flex;
+    padding: 0;
+    border-radius: 50%;
+    height: 3em;
+    width: 3em;
+    
+}
+
+.img-a:hover {
+    background: rgba(232,232,232,0.8);   
+    
+}
+
+.img-ico {
+    color: silver;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    align-items: center;
+    flex: 1 0 auto;
 
 }
 
-main {
+#google-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    max-width: 90%;
+}
 
+#searchbar-box {
+    display: flex;
+    border-radius: 2em;
+    max-width: 100%;
+    margin: 1em;
+    border: 1px solid black;
+}
+
+.searchbar-item {
+    margin: 0.5em;
+}
+
+#searchbar {
+    width: 33em;
+
+}
+
+.boton {
+    font-size: 0.9em;
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(20, 20, 20);
+    padding: 0.5em;
+    margin: 1em;
+    background-color: rgb(248, 248, 248);
+    border-radius: 0.2em;
+}
+
+#text-box {
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    jus
 }
 
 footer {
+    background-color: rgb(240,240,240);
+}
+
+.footer-element {
+    padding: 1em;
     
+}
+
+#foot1 p {
+    margin: 0 1.5rem;
+    font-size: 0.85rem;
+}
+
+#foot2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#foot2 ul {
+    display: flex;
+
+}
+
+#foot2 ul li {
+    margin: 0 1rem;
+}
+
+
+a {
+    margin: 0.5em; 
+    font-size: 0.85em;
+    text-decoration: none;
+    color: unset;
+}
+
+a:hover {
+text-decoration: underline black;
 }
